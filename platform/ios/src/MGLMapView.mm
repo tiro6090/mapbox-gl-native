@@ -810,7 +810,7 @@ public:
 }
 
 - (void)setScaleBarPosition:(MGLOrnamentPosition)scaleBarPosition {
-    MGLLogDebug(@"Setting scaleBarPosition: %d", scaleBarPosition);
+    MGLLogDebug(@"Setting scaleBarPosition: %lu", scaleBarPosition);
     _scaleBarPosition = scaleBarPosition;
     [self installScaleBarConstraints];
 }
@@ -823,7 +823,7 @@ public:
 }
 
 - (void)setCompassViewPosition:(MGLOrnamentPosition)compassViewPosition {
-    MGLLogDebug(@"Setting compassViewPosition: %d", compassViewPosition);
+    MGLLogDebug(@"Setting compassViewPosition: %lu", compassViewPosition);
     _compassViewPosition = compassViewPosition;
     [self installCompassViewConstraints];
 }
@@ -836,7 +836,7 @@ public:
 }
 
 - (void)setLogoViewPosition:(MGLOrnamentPosition)logoViewPosition {
-    MGLLogDebug(@"Setting logoViewPosition: %d", logoViewPosition);
+    MGLLogDebug(@"Setting logoViewPosition: %lu", logoViewPosition);
     _logoViewPosition = logoViewPosition;
     [self installLogoViewConstraints];
 }
@@ -849,7 +849,7 @@ public:
 }
 
 - (void)setAttributionButtonPosition:(MGLOrnamentPosition)attributionButtonPosition {
-    MGLLogDebug(@"Setting attributionButtonPosition: %d", attributionButtonPosition);
+    MGLLogDebug(@"Setting attributionButtonPosition: %lu", attributionButtonPosition);
     _attributionButtonPosition = attributionButtonPosition;
     [self installAttributionButtonConstraints];
 }
